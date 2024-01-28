@@ -1,0 +1,17 @@
+Configure your serverless
+#  sls config credentials --provider aws --key KEY --secret SECRET --profile serverless-admin ( Name )
+
+Deploy aws-lambda fully
+# sls deploy
+
+Deploy only one function
+# sls deploy function -f func_name
+
+Call lambda function
+# sls invoke -f  func_name -l
+
+Remove your all objects in Lambda
+# sls remove
+
+Create serverless lambda template
+sls create --template aws-nodejs --path nodejs-example
